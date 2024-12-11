@@ -16,10 +16,10 @@ function App() {
       setSpin(true);
     }, 5000);
   }, []);
-  const motionVariants = {
-    hidden: { opacity: 0, y: -200 },
-    visible: { opacity: 1, y: 0 },
-  };
+  // const motionVariants = {
+  //   hidden: { opacity: 0, y: -200 },
+  //   visible: { opacity: 1, y: 0 },
+  // };
   const textVariants = {
     hidden: { opacity: 0, y: "50%" },
     visible: { opacity: 1, y: "0%" },

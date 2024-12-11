@@ -18,7 +18,7 @@ const Approach = () => {
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const goToSlide = (index) => {
+  const goToSlide = (index:number) => {
     setCurrentIndex(index);
   };
   return (
